@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<title>Maison Noir | Products</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<img src="logo.png" class="logo" alt="Logo">
+
+
+<nav>
+
+<a href="index.html">Home</a>
+
+<a href="about.html">About</a>
+
+<a href="products.html">Products</a>
+    <a href="contact.html">Contact</a>
+<a href="feedback.html">Feedback</a>
+</nav>
+
+</header>
+
+
+<div class="container">
+
+<h1>Maison Noir Collection</h1>
+<p>Luxury streetwear built for dominance and elegance.</p>
+
+
+<!-- PRODUCTS -->
+
+<div class="product-grid">
+
+<div class="product-card">
+
+<h3>Shadow Hoodie</h3>
+
+<p>Premium black oversized hoodie</p>
+<img src="c:\Users\angel\OneDrive - Botswana Accountancy College (1)\Pictures\Screenshots\Screenshot 2026-05-17 205851.png" class="photo"alt="photo">
+
+<div class="price">P450</div>
+
+button onclick="selectProduct('Shadow Hoodie')">Order</button>
+
+</div>
+
+<div class="product-card">
+
+<h3>Noir T-Shirt</h3>
+
+<p>Minimal luxury cotton tee</p>
+<img src="c:\Users\angel\OneDrive - Botswana Accountancy College (1)\Pictures\Screenshots\Screenshot 2026-05-17 210513.png" class="photo" alt="photo">
+
+<div class="price">P250</div>
+
+<button onclick="selectProduct('Noir T-Shirt')">Order</button>
+
+</div>
+
+<div class="product-card">
+
+<h3>Midnight Jacket</h3>
+
+<p>Elegant winter street leather jacket</p>
+<img src="c:\Users\angel\OneDrive - Botswana Accountancy College (1)\Pictures\Screenshots\Screenshot 2026-05-17 211602.png" class="photo" alt="photo">
+
+<div class="price">P900</div>
+
+<button onclick="selectProduct('Midnight leather Jacket')">Order</button>
+
+</div>
+
+<div class="product-card">
+
+<h3>Maison Noir Cap</h3>
+
+<p>Signature embroidered cap</p>
+<img src="c:\Users\angel\OneDrive - Botswana Accountancy College (1)\Pictures\Screenshots\Screenshot 2026-05-17 211148.png" class="photo" alt="photo">
+
+<div class="price">P180</div>
+
+<button onclick="selectProduct('Maison Noir Cap')">Order</button>
+
+</div>
+
+
+</div>
+<!-- ORDER FORM -->
+<h2 style="margin-top:50px;">How to Order</h2>
+<p>Fill the form below after selecting a product.</p>
+
+<form>
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="text" id="product" placeholder="Selected Product" readonly>
+
+<input type="number" placeholder="Quantity" required>
+<textarea placeholder="Delivery Address" required></textarea>
+
+<input type="tel" placeholder="Phone Number" required>
+
+<button type="submit">Place Order</button>
+
+</form>
+
+
+
+</div>
+
+
+<footer>
+
+© 2026 Maison Noir. All Rights Reserved.
+
+</footer>
+
+
+<!-- SIMPLE JS -->
+
+<script>
+
+function selectProduct(name) {
+
+document.getElementById("product").value = name;
+
+}
+
+</script>
+
+
+</body>
+
+</html>
+

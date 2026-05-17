@@ -1,0 +1,100 @@
+head {
+    margin: 0;
+    font-family: arial,sans-serif;
+    background-color: #0b0b0b;
+    color: #f5f5f5;
+}
+header { margin: 0;
+    font-family: arial,sans-serif;
+    background-color: #0b0b0b;
+    color: #f5f5f5;
+    
+}
+body {
+
+margin: 0;
+
+font-family: Arial, sans-serif;
+
+background-color: #0b0b0b;
+
+color: #f5f5f5;
+
+}
+
+/* Header */
+
+header {
+
+display: flex;
+
+align-items: center;
+
+justify-content: space-between;
+padding: 15px 30px;
+
+background-color: #111;
+
+border-bottom: 1px solid #222;
+
+}
+
+
+.logo {
+
+height: 45px;
+
+}
+
+
+/* Navigation */
+
+nav a {
+
+color: #f5f5f5;
+
+margin: 0 12px;
+
+text-decoration: none;
+
+font-weight: bold;
+
+}
+
+
+nav a:hover {
+
+color: #c9a227; /* luxury gold accent */
+
+}
+
+
+
+/* Page content */
+
+.container {
+
+padding: 50px;
+
+}
+
+
+/* Footer */
+
+footer {
+text-align: center;
+
+padding: 20px;
+
+background-color: #111;
+
+border-top: 1px solid #222;
+
+margin-top: 50px;
+
+font-size: 14px;
+
+color: #aaa;
+
+}
+
